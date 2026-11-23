@@ -123,9 +123,9 @@ nodes now live in a worker, not the backoffice-api process.
 ### 9. Verify
 - [ ] Unit: STREAM ingest branch (miniredis), Redis-first lookup incl. age bounds, lease, node coalescing + teardown,
       hourly cron (fresh / stale / duplicate), hub routing. `/verify`, `make lint`.
-- [ ] Measure `FetchPriceForRegime` against the dev DB for a crossed metal/SGD route with stream sources (Redis hit) and with a
+- [x] Measure `FetchPriceForRegime` against the dev DB for a crossed metal/SGD route with stream sources (Redis hit) and with a ✅ 2026-11-23
       DAILY fallback (DB). If p95 is well above ~20ms, lower the coalesce rate or cache the regime + holiday lookup.
-- [ ] Manual: worker + backoffice running, subscribe from a ws client, watch ticks and regime prices.
+- [x] Manual: worker + backoffice running, subscribe from a ws client, watch ticks and regime prices. ✅ 2026-11-23
 
 ## Open questions (answered 2026-11-01, see Decisions)
 1. Bid/ask through `IngestQuote`: optional Bid/Ask on `NormalizedPrice` (my pick), or mid-only + source spreads?

@@ -16,3 +16,6 @@ I think IpAddressRepository.upsert (ip-address.repo/index.ts:111-126) un-bans IP
 
 None of these changes the schema, so you won't need makemigrations. Want me to make changes 1–5 and the IP fix?
 ![[Pasted image 20261123163846.png]]
+
+
+- [ ] ⏫ Testing Task

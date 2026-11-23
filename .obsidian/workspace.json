@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Tasks.md",
+                "file": "electify/Tasks.md",
                 "mode": "source",
                 "source": true
               },
@@ -99,7 +99,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Tasks.md",
+                "file": "electify/Tasks.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -160,7 +160,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Tasks.md",
+                "file": "electify/Tasks.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
@@ -175,7 +175,7 @@
             "state": {
               "type": "footnotes",
               "state": {
-                "file": "Tasks.md"
+                "file": "electify/Tasks.md"
               },
               "icon": "lucide-file-signature",
               "title": "Footnotes"
@@ -204,13 +204,15 @@
   },
   "active": "815cb5ba8cbb12d9",
   "lastOpenFiles": [
-    "migrations cleanup.md",
+    "electify/security-issue.md",
+    "electify/Tasks.md",
     "Tasks.md",
+    "Untitled",
+    "migrations cleanup.md",
     "general tasks.md",
     "storage-fees-statements.md",
     "self-healing-schedules.md",
     "realtime-pricing.md",
-    "electify/security-issue.md",
     "electify/attachments/Pasted image 20261123163846.png",
     "electify/attachments",
     "Pasted image 20261123163544.png",
