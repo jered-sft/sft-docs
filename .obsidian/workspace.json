@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "self-healing-schedules.md",
+                "file": "Tasks.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "self-healing-schedules"
+              "title": "Tasks"
             }
           }
         ]
@@ -41,7 +41,7 @@
               "type": "file-explorer",
               "state": {
                 "sortOrder": "alphabetical",
-                "autoReveal": false,
+                "autoReveal": true,
                 "showSearch": false,
                 "searchQuery": ""
               },
@@ -99,6 +99,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Tasks.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -159,6 +160,7 @@
             "state": {
               "type": "outline",
               "state": {
+                "file": "Tasks.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
@@ -173,13 +175,14 @@
             "state": {
               "type": "footnotes",
               "state": {
-                "file": "self-healing-schedules.md"
+                "file": "Tasks.md"
               },
               "icon": "lucide-file-signature",
               "title": "Footnotes"
             }
           }
-        ]
+        ],
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
@@ -195,11 +198,17 @@
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
       "bases:Create new base": false,
-      "obsidian-git:Open Git source control": false
+      "obsidian-git:Open Git source control": false,
+      "publish:Publish changes...": false
     }
   },
   "active": "815cb5ba8cbb12d9",
   "lastOpenFiles": [
+    "migrations cleanup.md",
+    "Tasks.md",
+    "general tasks.md",
+    "storage-fees-statements.md",
+    "self-healing-schedules.md",
     "realtime-pricing.md",
     "electify/security-issue.md",
     "electify/attachments/Pasted image 20261123163846.png",
