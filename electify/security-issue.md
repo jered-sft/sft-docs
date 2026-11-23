@@ -15,3 +15,4 @@ Possible security bug (not about speed)
 I think IpAddressRepository.upsert (ip-address.repo/index.ts:111-126) un-bans IPs. It passes status: ALLOWED to TypeORM's upsert. As I understand TypeORM, that turns into ON CONFLICT DO UPDATE SET status = EXCLUDED.status, ..., and skipUpdateIfNoValuesChanged only skips the update when nothing differs, which a banned IP always does. So the next request from a banned IP would reset it to ALLOWED before the BANNED check runs. I haven't run it to confirm; a quick test (ban an IP, then send one request) would settle it. The single-query rewrite in item 5 fixes this as well.
 
 None of these changes the schema, so you won't need makemigrations. Want me to make changes 1–5 and the IP fix?
+![[Pasted image 20261123163846.png]]

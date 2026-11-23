@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "electify/security-issue.md",
+                "file": "self-healing-schedules.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "security-issue"
+              "title": "self-healing-schedules"
             }
           }
         ]
@@ -166,6 +166,18 @@
               "icon": "lucide-list",
               "title": "Outline"
             }
+          },
+          {
+            "id": "1fa861cbcb12bf27",
+            "type": "leaf",
+            "state": {
+              "type": "footnotes",
+              "state": {
+                "file": "self-healing-schedules.md"
+              },
+              "icon": "lucide-file-signature",
+              "title": "Footnotes"
+            }
           }
         ]
       }
@@ -188,6 +200,10 @@
   },
   "active": "815cb5ba8cbb12d9",
   "lastOpenFiles": [
+    "realtime-pricing.md",
+    "electify/security-issue.md",
+    "electify/attachments/Pasted image 20261123163846.png",
+    "electify/attachments",
     "Pasted image 20261123163544.png",
     "claudea-test-investigation.md",
     "Pasted image 20261123163528.png"
