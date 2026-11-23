@@ -1,5 +1,5 @@
 ```tasks
 not done
-path includes FolderName
+path includes {{query.file.folder}}
 group by folder
 ```
