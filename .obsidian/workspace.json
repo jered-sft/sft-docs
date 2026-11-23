@@ -11,10 +11,14 @@
             "id": "815cb5ba8cbb12d9",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "electify/security-issue.md",
+                "mode": "source",
+                "source": true
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "security-issue"
             }
           }
         ]
@@ -178,9 +182,14 @@
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
-      "bases:Create new base": false
+      "bases:Create new base": false,
+      "obsidian-git:Open Git source control": false
     }
   },
   "active": "815cb5ba8cbb12d9",
-  "lastOpenFiles": []
+  "lastOpenFiles": [
+    "Pasted image 20261123163544.png",
+    "claudea-test-investigation.md",
+    "Pasted image 20261123163528.png"
+  ]
 }
